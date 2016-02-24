@@ -1,0 +1,17 @@
+<ion-view>
+
+    <ion-content >
+                <button class="button" ng-click="download()">Download</button>
+                <button class="button" ng-click="load()">Load</button>
+                {{imgFile}}
+                <img ng-src="{{imgFile}}">
+                <br/>
+             
+                
+            </ion-content>
+            <ul>
+              <li ng-repeat="user in users">{{user}}</li>
+            </ul>
+     
+   </ion-view>
+

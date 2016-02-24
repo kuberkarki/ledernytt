@@ -1,0 +1,482 @@
+body, .ionic-body
+{
+    overflow: visible;
+}
+.view-container{
+
+
+}
+/*.loginTab
+{
+	background:url(../img/login-Bg.png) center center fixed;
+    padding-bottom: 100px;
+}*/
+.formBg{ background:url(../img/login-Bg.png) center center fixed;}
+.loginPart
+{
+    top: 0%;
+    left: 10%;
+    position: relative;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    padding: 10px;
+    margin: 40px 0 40px 0;
+}
+.loginPart p
+{
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: center;
+}
+.loginPart p a
+{
+    color: #666;
+    text-decoration: none;
+}
+.loginPart p a:hover
+{
+    color: #999;
+    text-decoration: none;
+}
+.list .list-inset h4 { font-size: 15px;}
+.registerText p
+{
+    font-size: 13px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight:bold;
+}
+.registerText p a
+{
+    color: #666;
+    text-decoration: none;
+}
+.registerText p a:hover
+{
+    color: #999;
+    text-decoration: none;
+}
+.newUserRegister
+{
+    margin-top: 30px;
+}
+.newUserRegister p
+{
+    text-align: center;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.newUserRegister a
+{
+    text-decoration:none;
+}
+.newUserRegister a:hover
+{
+    text-decoration:none;
+}
+.loginPart .card, .list-inset img
+{
+    width: 180px;
+    height: auto;
+    margin: 0px auto;
+    display: block;
+    padding-bottom: 30px;
+}
+.loginPart .card, .list-inset
+{
+  overflow: visible;
+  margin: 20px 10px;
+  border-radius: 2px;
+  background-color: transparent  !important;
+}
+.register .button
+{
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.headLogo {
+margin-top: -6px;
+}
+.headLogo p {
+font-size: 16px;
+font-weight: bold;
+display: inline-block;
+margin-top: 16px;
+}
+.headLogo img {
+width: 30px;
+margin-top: 4px;
+float: left;
+margin-right: 5px;
+}
+.SearchBox
+{
+	margin-top: 60px;
+}
+.searchTab h5
+{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.loginPart a
+{
+    text-decoration:none
+;}
+.loginPart a:hover
+{
+    text-decoration:none;
+}
+.card p
+{
+    font-size: 13px;
+}
+.slider
+{
+    height:100%;
+}
+.scrool
+{
+    height:100%;
+}
+.magazinesContent
+{
+    width: 100%;
+    margin-top: 72px;
+    padding: 0px 10px;
+    background-color: #fff;
+}
+.slider-pager
+{
+    font-size: 10px;
+}
+.slider-pager .slider-pager-page
+{
+    margin: 0px 0px;
+}
+.magazinesContent h6
+{
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+
+.color-red { width: 102%;}
+.color-red img
+{
+    width: 22%;
+    margin-bottom: 40px;
+    margin-left: 37px;
+    display: inline;
+}
+div.color-red a:first-child img
+{
+    margin-left: 0px !important;
+}
+
+.subscriptionDetail
+{
+    /*margin-top: 125px; */
+    padding: 0px 10px;
+}
+.subscriptionDetail img
+{
+    width: 60%;
+}
+.subscriptionDetail ul li
+{
+    font-size: 13px;
+    padding-top: 10px;
+    list-style: square !important;
+    font-weight: bold;
+}
+
+.subscriptionDetail .button-balanced
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.modalBox .ion-ios-close-empty
+{
+    margin-right: 15px;
+}
+.notSubscriberDetail
+{
+    padding: 20px 20px;
+}
+.notSubscriberDetail img
+{
+    width: 250px;
+}
+.notSubscriberDetail ul li
+{
+    padding-top: 7px;
+}
+.notSubscriberDetail h5
+{
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.backButtons
+{
+    padding-left: 10px;
+}
+.notSubscriberDetail label, input, button, select, textarea
+{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.42857;
+    margin-right: 15px;
+}
+
+.notSubscriberDetail input[type="radio"], input[type="checkbox"]
+{
+    margin: 0px;
+    line-height: normal;
+    position: relative;
+    top: 2px;
+}
+.notSubscriberDetail .button
+{
+    margin-top: 40px;
+    margin-right:10px;
+
+}
+
+
+.subscriptionVerification
+{
+    margin-top: 125px;
+    padding: 0px 10px;
+}
+.subscriptionVerification h4
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+.subscriptionVerification img
+{
+    width: 60%;
+    margin-top: 30px;
+}
+.subscriptionVerification ul li
+{
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.subscriptionVerification .button-balanced
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.subscriptionVerification .button
+{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.profilePage
+{
+    font-size: 12px;
+    color: #333;
+}
+.profilePage a
+{
+    text-decoration:none;
+    color: #666;
+    font-size: 13px;
+}
+.profilePage a:hover
+{
+    text-decoration:none;
+    color: #999;
+    font-size: 13px;
+}
+.profilePage .button
+{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#area {
+    /*width: 350px;
+    height: 450px;*/
+   /* margin: -30px auto;*/
+   /* -moz-box-shadow:      inset 10px 0 20px rgba(0,0,0,.1);
+    -webkit-box-shadow:   inset 10px 0 20px rgba(0,0,0,.1);
+    box-shadow:           inset 10px 0 20px rgba(0,0,0,.1);*/
+}
+
+#area iframe {
+    padding: 40px 40px;
+}
+#prev {
+    left: 40px;
+}
+
+#next {
+  right: 40px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -32px;
+  font-size: 64px;
+  color: #E2E2E2;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.arrow:hover {
+  color: #777;
+}
+
+.arrow:active {
+  color: #000;
+}
+
+.iframe-placeholder{
+   background: url('../img/loading.gif')center center no-repeat;
+}
+
+.inAppBrowserWrap {
+  background-color: rgba(0,0,0,0.75);
+  color: rgba(235,235,235,1.0);
+}
+.inAppBrowserWrap menu {
+  overflow: auto;
+  list-style-type: none;
+  padding-left: 0;
+}
+.inAppBrowserWrap menu li {
+  font-size: 25px;
+  height: 25px;
+  float: left;
+  margin: 0 10px;
+  padding: 3px 10px;
+  text-decoration: none;
+  color: #ccc;
+  display: block;
+  background: rgba(30,30,30,0.50);
+}
+.inAppBrowserWrap menu li.disabled {
+    color: #777;
+}
+.platform-ios .SearchBox{margin-top:80px}
+
+.media-logo{
+  width: 100px !important;
+  padding-bottom: 0px !important;
+}
+.testdiv img {
+margin: 0px;
+position: relative;
+left: 60%;
+padding-top: 20px;
+}
+
+/*overlay for downloading */
+/*#statusDom{
+  position:absolute;
+  top:50%;
+  left:50%;
+  background-color:white;
+  z-index:1002;
+  overflow:auto;
+  width:100%;
+  height:100%;
+  margin-left:-200px;
+  margin-top:-200px';
+}*/
+
+
+/*------------added-------------*/
+.pagelist {
+font-size: 10px;
+background: #FAFAFA;
+color: #fff;
+line-height: 3px;
+padding-bottom: 7px;
+padding-left: 10px;
+padding-right: 10px;
+border: 1px solid #ccc;
+margin-bottom: 5px;
+width: 73%;
+float: right;
+margin-right: 5px;
+}
+span.badge {
+color: #FFF;
+font-size: 10px;
+font-weight: bold;
+background: #000;
+padding: 1px 9px 0px;
+line-height: 15px;
+margin-left: 5px;
+}
+.pagelist a {
+color: #000;
+text-decoration: none;
+}
+.page-detail {
+font-size: 7px;
+margin-top: 9px;
+}
+.page-no {
+font-weight: bold;
+}
+.insearch{
+padding-bottom: 138px;
+padding-top: 20px;
+}
+
+.color-red img {
+display: inline-block;
+float: left;
+}
+.searching{
+  /*display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+   fixes overlap error in IE7/8,
+     make sure you have an empty gif 
+  background-image: url('empty.gif');
+  color: #000;
+text-decoration: none;*/
+}
+
+.bar.bar-balanced {
+border-color: #DA0606;
+background-color: #181818;
+/* background-image: linear-gradient(0deg, #28a54c, #28a54c 50%, transparent 50%); */
+color: #fff;
+border-bottom: 3px solid #D30B0B;
+}
+
+.button.button-positive {
+background-color: #d9534f;
+}
+
+.button.button-positive.active,
+.button.button-positive.activated {
+background-color: #d9534f;
+}
+
+.btn-default{
+  border-color: #ccc;
+  color: #878787;
+}
+
+.button.button-balanced {
+border-color: transparent;
+background-color: #d9534f;
+color: #fff;
+}

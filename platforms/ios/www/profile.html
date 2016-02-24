@@ -1,0 +1,50 @@
+<ion-view class="profilePage">
+<ion-content>
+
+<div class="list">
+  
+
+  <form onsubmit="update(data)">
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Email</span>
+    <input type="text" placeholder="example@example.com" value="{{data.email}}" readonly="readonly" ng-model='data.email'>
+  </label>
+  <!-- <label class="item item-input item-stacked-label">
+    <span class="input-label">Username</span>
+    <input type="text" placeholder="Username" value="{{data.user_name}}" readonly="readonly">
+  </label> -->
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">First Name</span>
+    <input type="text" placeholder="First Name" value="{{data.first_name}}" ng-model='data.first_name'>
+  </label>
+
+
+<label class="item item-input item-stacked-label">
+    <span class="input-label">Last Name</span>
+    <input type="text" placeholder="First Name" value="{{data.last_name}}" ng-model='data.last_name'>
+  </label>
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Phone</span>
+    <input type="text" placeholder="phone" value="{{data.contact_number!=undefined?data.contact_number:''}}" ng-model='data.contact_number'>
+  </label>
+  <!-- <label class="item item-input item-stacked-label">
+    <span class="input-label">Address</span>
+    <br><br>
+    <label><input type="text" placeholder="Address 1"></label>
+    <br>
+    <label><input type="text" placeholder="Address 2"></label>
+    <br>
+    <label><input type="text" placeholder="Zip code"></label>
+    <br>
+    <label><input type="text" placeholder="City"></label>
+  </label> -->
+
+  <!-- <label class="item item-input item-stacked-label"><a href="#">Forget my Username or Password?</a></p></label> -->
+</form>
+</div>
+
+	<a href="#app/magazine"><button class="button btn-default">Cancel</button></a>
+  	<button class="button button-positive" ng-click="update(data)">Update</button>
+
+</ion-view>
+</ion-content>

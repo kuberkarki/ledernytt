@@ -1,0 +1,71 @@
+
+<ion-view>
+
+    <div class="searchTab"><!---------- searchbox start ---------->
+
+    <!---------- searchTab start ---------->
+      <div class="SearchBox">
+
+      <div class="list list-inset">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" placeholder="Search" ng-model="searchKeyword">
+        </label>
+      </div>
+
+
+      </div>
+      <!---------- searchbox end ---------->
+
+
+
+
+      
+      <ion-content class="magazinesContent" >
+      <ion-refresher
+        pulling-text="Pull to refresh..."
+        on-refresh="doRefresh()">
+      </ion-refresher>
+
+ 
+      <!-- <h6>Reis</h6> -->
+    <!--  <ion-slide-box delegate-handle="epub-viewer" on-slide-changed="slideChanged(index)"  does-continue="true"> 
+  
+      <ion-slide ng-repeat="n in offlinemagazine | limitTo:1" ng-init='current=0;'>
+      
+     
+        <div class="color-red"  >
+          <a ng-repeat="magazine in offlinemagazine | limitTo:4:current+($index*4) |  filter: searchKeyword"
+
+            ng-href="{{(magazine.id) ? '#app/detail/'+magazine.id : undefined}}"
+
+            ng-click="(magazine.subscribed) ?undefined:undefined"
+           
+          ><img ng-src="{{magazine.image}}" width=100% width=100%></a>
+          
+        </div>
+      </ion-slide>
+      
+     </ion-slide-box>-->
+     <div class="bar bar-subheader" ng-if='!offlinemagazine'>
+       <span class='ion-arrow-down-c'></span> Pull to refresh !!
+      </div>
+     <div ng-repeat="n in offlinemagazine | limitTo:loopcount" ng-init='current=0;'>
+     <div class="color-red"  >
+          <a ng-repeat="magazine in offlinemagazine | limitTo:4:current+($index*4)  |  filter: searchKeyword"
+
+            ng-href="{{(magazine.id) ? '#app/detail/'+magazine.id : undefined}}"
+
+            ng-click="(magazine.subscribed) ?undefined:undefined"
+           
+          ><img ng-src="{{magazine.image}}" width=100% width=100%></a>
+          
+        </div>
+      </div>
+     
+      </ion-content>
+      </div><!---------- searchTab end ---------->
+
+      
+    </ion-view>
+  
