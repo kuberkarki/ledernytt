@@ -10,9 +10,6 @@
         "co.geomati.extractzipfile": {
             "PACKAGE_NAME": "no.mediadigital.travelnews"
         },
-        "com.ingage.themeablebrowserimages": {
-            "PACKAGE_NAME": "no.mediadigital.travelnews"
-        },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "no.mediadigital.travelnews"
         },
@@ -22,16 +19,10 @@
         "cordova-plugin-file-transfer": {
             "PACKAGE_NAME": "no.mediadigital.travelnews"
         },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "no.mediadigital.travelnews"
-        },
         "cordova-plugin-network-information": {
             "PACKAGE_NAME": "no.mediadigital.travelnews"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "no.mediadigital.travelnews"
-        },
-        "cordova-plugin-themeablebrowser": {
             "PACKAGE_NAME": "no.mediadigital.travelnews"
         },
         "cordova-plugin-whitelist": {
@@ -44,6 +35,9 @@
             "PACKAGE_NAME": "no.mediadigital.travelnews"
         },
         "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "no.mediadigital.ledernytt"
+        },
+        "cordova-plugin-inappbrowser": {
             "PACKAGE_NAME": "no.mediadigital.ledernytt"
         }
     },

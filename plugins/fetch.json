@@ -74,35 +74,18 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-inappbrowser": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-inappbrowser"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-themeablebrowser": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-themeablebrowser"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "com.ingage.themeablebrowserimages": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/ingageco/cordova-plugin-themeablebrowserimages.git",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "ionic-plugin-keyboard": {
         "source": {
             "type": "registry",
             "id": "ionic-plugin-keyboard"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser@~1.2.0"
         },
         "is_top_level": true,
         "variables": {}

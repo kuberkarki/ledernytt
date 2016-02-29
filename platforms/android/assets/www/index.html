@@ -15,12 +15,12 @@
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
-
+<script src="cordova.js"></script>
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
-    <script src="cordova.js"></script>
+    
 
     <!-- your app's js -->
 
@@ -35,7 +35,7 @@
 <script type="text/javascript" src="js/jszip.js" ></script>
 <script type="text/javascript" src="js/jszip-utils.js"></script>
   </head>
-  <body ng-app="starter" class="loginTab platform-android platform-cordova platform-webview">
+  <body ng-app="starter" class="loginTab">
     <ion-nav-view></ion-nav-view>
 
 
@@ -60,25 +60,30 @@
         e = e ||  window.event;
         var element = e.target || e.srcElement;
 
-        console.log(element);
+        //console.log(element);
        
         if(element.className.indexOf("inappbrowser")>0){
         //if (element.tagName == 'A') {
             //alert("a");
            
-            window.open(element.href, "_blank", "location=no,presentationstyle=fullscreen,closebuttoncaption=Return,zoom=no");
+            var inAppBrowser =window.open(element.href, "_blank", "location=no,closebuttoncaption=Return,zoom=no,clearcache=yes,toolbar=no");
 
-           /* cordova.ThemeableBrowser.open(element.href, '_blank', {
+
+            inAppBrowser.addEventListener("exit", function(event) {
+                inAppBrowser.close();
+            });
+
+            /*cordova.ThemeableBrowser.open(element.href, '_blank', {
 
     statusbar: {
         color: '#ffffffff'
     },
     toolbar: {
         height: 44,
-        color: '#f0f0f0ff'
+        color: '#181818'
     },
     title: {
-        color: '#003264ff',
+        color: '#ffffffff',
         showPageTitle: true
     },
     
@@ -115,7 +120,9 @@
     },
     backButtonCanClose: true,
     transitionstyle:'coververtical',
-    fullscreen:true
+    fullscreen:true,
+    clearcache: false,
+
 
 }).addEventListener('backPressed', function(e) {
     alert('back pressed');

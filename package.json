@@ -28,10 +28,11 @@
     },
     "cordova-plugin-file",
     "cordova-plugin-file-transfer",
-    "org.apache.cordova.file"
+    "org.apache.cordova.file",
+    "cordova-plugin-inappbrowser"
   ],
   "cordovaPlatforms": [
-    "ios",
-    "android"
+    "android",
+    "ios"
   ]
 }

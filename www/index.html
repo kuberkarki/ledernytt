@@ -60,25 +60,30 @@
         e = e ||  window.event;
         var element = e.target || e.srcElement;
 
-        console.log(element);
+        //console.log(element);
        
         if(element.className.indexOf("inappbrowser")>0){
         //if (element.tagName == 'A') {
             //alert("a");
            
-            window.open(element.href, "_blank", "location=no,presentationstyle=fullscreen,closebuttoncaption=Return,zoom=no");
+            var inAppBrowser =window.open(element.href, "_blank", "location=no,closebuttoncaption=Return,zoom=no,clearcache=no,toolbar=yes");
 
-           /* cordova.ThemeableBrowser.open(element.href, '_blank', {
+           
+            inAppBrowser.addEventListener("exit", function(event) {
+                inAppBrowser.close();
+            });
+
+            /*cordova.ThemeableBrowser.open(element.href, '_blank', {
 
     statusbar: {
         color: '#ffffffff'
     },
     toolbar: {
         height: 44,
-        color: '#f0f0f0ff'
+        color: '#181818'
     },
     title: {
-        color: '#003264ff',
+        color: '#ffffffff',
         showPageTitle: true
     },
     
@@ -115,7 +120,9 @@
     },
     backButtonCanClose: true,
     transitionstyle:'coververtical',
-    fullscreen:true
+    fullscreen:true,
+    clearcache: false,
+
 
 }).addEventListener('backPressed', function(e) {
     alert('back pressed');

@@ -17,7 +17,7 @@
  under the License.
  */
 //
-// Prefix header for all source files of the 'Travel News Norway' target in the 'Travel News Norway' project
+// Prefix header for all source files of the 'Ledernytt' target in the 'Ledernytt' project
 //
 
 #ifdef __OBJC__

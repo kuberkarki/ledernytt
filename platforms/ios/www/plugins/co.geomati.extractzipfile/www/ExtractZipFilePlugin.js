@@ -1,4 +1,5 @@
-cordova.define("co.geomati.extractzipfile.ExtractZipFilePlugin", function(require, exports, module) { /*
+cordova.define("co.geomati.extractzipfile.ExtractZipFilePlugin", function(require, exports, module) {
+/*
  Author: Vishal Rajpal
  Filename: ZipPlugin.js
  Created Date: 21-02-2012

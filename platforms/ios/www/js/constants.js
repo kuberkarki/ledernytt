@@ -11,5 +11,5 @@ angular.module('starter')
 });
 
 //var url='http://95.211.75.201/~digitalbookshelf/dev/api/';
-//var url='http://95.211.75.201/~travelnewsdm/api/';
-var url='http://95.211.75.201/~ledernytt/api/';
+var url='http://95.211.75.201/~travelnewsdm/api/';
+//var url='http://95.211.75.201/~ledernytt/api/';

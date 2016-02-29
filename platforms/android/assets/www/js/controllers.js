@@ -530,6 +530,13 @@ Releases.all().then(function(cdata){
     }
   }
 
+  $ionicPlatform.ready(function() {
+          // Platform stuff here.
+         // console.log(device);
+         window.open = cordova.InAppBrowser.open;
+
+        });
+
 
    $ionicLoading.show({
     content: 'Loading',
